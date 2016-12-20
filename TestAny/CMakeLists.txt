@@ -1,0 +1,4 @@
+
+PYTHON_ADD_MODULE(Test Test.cpp)
+FILE(COPY Test.py DESTINATION .)
+ADD_TEST(TestAny Test.py)
