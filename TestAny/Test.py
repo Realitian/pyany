@@ -1,6 +1,10 @@
 #!/usr/bin/env python
+print ("Object was %s."%precreated_object)
 
-import LoadCommand
+#import Test
 
-any = LoadCommand()
-any.loadModel("test")
+#any = Test.LoadCommand()
+#any.loadModel("test")
+
+#a = "test"
+#any.processAny(a)
